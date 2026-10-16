@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)" />
+  <circle cx="256" cy="256" r="190" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8" stroke-dasharray="16 12" />
+  
+  <!-- Graduation Cap / Sphere Symbol -->
+  <g transform="translate(256, 230) scale(1.6)">
+    <path d="M 0,-50 L 70,-15 L 0,20 L -70,-15 Z" fill="#ffffff" filter="drop-shadow(0 6px 12px rgba(0,0,0,0.2))" />
+    <path d="M -45,3 L -45,35 Q 0,65 45,35 L 45,3 Q 0,30 -45,3 Z" fill="#ffffff" opacity="0.95" />
+    <!-- Tassel -->
+    <path d="M 50,-6 Q 65,5 65,30" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" />
+    <circle cx="65" cy="34" r="5" fill="#f59e0b" />
+  </g>
+  
+  <!-- "12th" Badge -->
+  <g transform="translate(256, 390)">
+    <rect x="-80" y="-24" width="160" height="48" rx="24" fill="#ffffff" filter="drop-shadow(0 4px 8px rgba(0,0,0,0.2))" />
+    <text x="0" y="8" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" fill="#4f46e5" text-anchor="middle" letter-spacing="1">
+      12TH CBSE
+    </text>
+  </g>
+</svg>

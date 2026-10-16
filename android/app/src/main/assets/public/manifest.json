@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Prepium",
+  "short_name": "Prepium",
+  "description": "CBSE Class 12 (2026–27) Offline Study Planner & Syllabus for Physics, Chemistry, Mathematics, Biology, English Core, and Painting.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,1314 @@
+{
+  "academicSession": "2026-27",
+  "board": "CBSE",
+  "class": 12,
+  "verificationStatus": "Partially verified from CBSE curriculum draft documents. Unconfirmed details marked as Not verified yet.",
+  "disclaimer": "Official CBSE information is maintained strictly separate from analytical priority guidance. No chapter should be skipped based on analytical tags.",
+  "subjects": [
+    {
+      "id": "physics",
+      "code": "042",
+      "name": "Physics",
+      "hindiName": "भौतिक विज्ञान",
+      "theoryMarks": 70,
+      "practicalMarks": 30,
+      "totalMarks": 100,
+      "verified": true,
+      "assessmentStructure": {
+        "theory": "70 Marks (3 Hours duration)",
+        "practical": "30 Marks (Two experiments 7+7, Practical record 5, One activity from any section 3, Investigatory project 3, Viva on experiments/activities/project 5)",
+        "questionPaperDesign": "~50% Competency-based (MCQ, Case-based, Source-based integrated questions), ~20% Select response (MCQs), ~30% Constructed response (Short/Long answer)"
+      },
+      "units": [
+        {
+          "unitNumber": "Unit I & II",
+          "unitName": "Electrostatics and Current Electricity",
+          "officialMarks": 16,
+          "chapters": [
+            {
+              "chapterNumber": 1,
+              "chapterName": "Electric Charges and Fields",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Electric charges and their conservation",
+                "Coulomb's law force between two point charges, forces between multiple charges, superposition principle",
+                "Continuous charge distribution",
+                "Electric field, electric field due to a point charge, electric field lines",
+                "Electric dipole, electric field due to a dipole on axial and equatorial lines",
+                "Torque on a dipole in a uniform electric field",
+                "Electric flux and statement of Gauss's theorem",
+                "Gauss theorem applications: field due to infinitely long straight wire, uniformly charged infinite plane sheet"
+              ],
+              "keyDerivations": [
+                "Electric field on axial and equatorial lines of electric dipole",
+                "Torque on dipole in uniform electric field (tau = p x E)",
+                "Electric field due to infinitely long charged wire using Gauss's Law",
+                "Electric field due to infinite charged plane sheet using Gauss's Law"
+              ],
+              "numericalFocus": "Superposition of electrostatic forces, dipole torque, flux through closed surfaces and Gauss law calculations",
+              "diagrams": ["Electric field lines patterns", "Electric dipole configurations", "Gaussian cylinder and pillbox surfaces"],
+              "practicalLinkage": "Verification of electrostatic properties using electroscope and electric field mapping"
+            },
+            {
+              "chapterNumber": 2,
+              "chapterName": "Electrostatic Potential and Capacitance",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Electric potential, potential difference, electric potential due to a point charge, electric dipole and system of charges",
+                "Equipotential surfaces, electrical potential energy of a system of two point charges and of electric dipoles in an electrostatic field",
+                "Conductors and dielectrics, free charges and bound charges inside a conductor",
+                "Dielectrics and electric polarization, capacitors and capacitance",
+                "Combination of capacitors in series and in parallel",
+                "Capacitance of a parallel plate capacitor with and without dielectric medium between the plates",
+                "Energy stored in a capacitor"
+              ],
+              "keyDerivations": [
+                "Potential due to a point charge and electric dipole",
+                "Potential energy of dipole in uniform external field",
+                "Parallel plate capacitor capacitance formula (C = epsilon_0 * A / d)",
+                "Capacitance with dielectric slab between plates",
+                "Energy stored in charged capacitor (U = 1/2 C V^2) and energy density"
+              ],
+              "numericalFocus": "Equivalent capacitance in series-parallel circuits, dielectric insertion effects on charge and voltage, energy calculations",
+              "diagrams": ["Equipotential surfaces for point charges and dipoles", "Parallel plate capacitor with dielectric slab"],
+              "practicalLinkage": "Determination of capacitance using bridge circuits, multimeter measurements"
+            },
+            {
+              "chapterNumber": 3,
+              "chapterName": "Current Electricity",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Electric current, flow of electric charges in a metallic conductor, drift velocity, mobility and their relation with electric current",
+                "Ohm's law, V-I characteristics (linear and non-linear), electrical energy and power, electrical resistivity and conductivity",
+                "Temperature dependence of resistance",
+                "Internal resistance of a cell, potential difference and emf of a cell, combination of cells in series and in parallel",
+                "Kirchhoff's rules and simple applications",
+                "Wheatstone bridge (principle and balanced condition)"
+              ],
+              "keyDerivations": [
+                "Relation between current and drift velocity (I = n e A v_d)",
+                "Deduction of Ohm's law and resistivity expression (rho = m / (n e^2 tau))",
+                "Terminal voltage vs emf relation (V = E - I r)",
+                "Wheatstone bridge balance condition (P/Q = R/S)"
+              ],
+              "numericalFocus": "Kirchhoff loop rules in multi-loop circuits, cell combinations for maximum current, temperature coefficient of resistance",
+              "diagrams": ["Wheatstone bridge circuit schematic", "V-I graphs for ohmic and non-ohmic conductors"],
+              "practicalLinkage": "To determine resistivity of two wires using meter bridge, compare EMF of two cells, find internal resistance"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit III & IV",
+          "unitName": "Magnetic Effects of Current, Magnetism, EMI and AC",
+          "officialMarks": 17,
+          "chapters": [
+            {
+              "chapterNumber": 4,
+              "chapterName": "Moving Charges and Magnetism",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Concept of magnetic field, Oersted's experiment",
+                "Biot-Savart law and its application to current carrying circular loop",
+                "Ampere's law and its applications to infinitely long straight wire and straight solenoid",
+                "Force on a moving charge in uniform magnetic and electric fields (Lorentz force)",
+                "Force on a current-carrying conductor in a uniform magnetic field",
+                "Force between two parallel current-carrying conductors - definition of ampere",
+                "Torque experienced by a current loop in uniform magnetic field",
+                "Moving coil galvanometer - its current sensitivity and conversion to ammeter and voltmeter"
+              ],
+              "keyDerivations": [
+                "Biot-Savart Law on the axis of a circular current loop",
+                "Magnetic field of long solenoid using Ampere's circuital law",
+                "Force between two parallel current-carrying conductors",
+                "Torque on current loop in magnetic field (tau = M x B)",
+                "Conversion of galvanometer to ammeter (shunt resistance) and voltmeter (series resistance)"
+              ],
+              "numericalFocus": "Galvanometer conversion shunts, force between parallel wires, circular path radius of charge in B field",
+              "diagrams": ["Moving coil galvanometer assembly", "Right-hand thumb rule and magnetic field vectors"],
+              "practicalLinkage": "Conversion of galvanometer to ammeter and voltmeter in laboratory"
+            },
+            {
+              "chapterNumber": 5,
+              "chapterName": "Magnetism and Matter",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Bar magnet as an equivalent solenoid, magnetic field lines",
+                "Magnetic dipole moment of a revolving electron",
+                "Magnetization and magnetic intensity",
+                "Magnetic properties of materials: Paramagnetic, diamagnetic and ferromagnetic substances with examples",
+                "Effect of temperature on magnetic properties (Curie temperature statement)"
+              ],
+              "keyDerivations": [
+                "Magnetic dipole moment of revolving electron (Bohr magneton)",
+                "Axial and equatorial field of a bar magnet"
+              ],
+              "numericalFocus": "Magnetic susceptibility, relative permeability and permeability relation (mu_r = 1 + chi)",
+              "diagrams": ["Magnetic field lines of bar magnet vs solenoid", "Alignment of dipoles in dia, para, and ferromagnetic materials"],
+              "practicalLinkage": "Deflection magnetometer and magnetic compass field lines mapping"
+            },
+            {
+              "chapterNumber": 6,
+              "chapterName": "Electromagnetic Induction",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Electromagnetic induction: Faraday's experiments and laws, induced EMF and current",
+                "Lenz's Law and conservation of energy",
+                "Motional EMF (straight rod moving in perpendicular magnetic field)",
+                "Self and mutual induction, coefficient of self-inductance and mutual inductance",
+                "Inductance of long solenoid"
+              ],
+              "keyDerivations": [
+                "Motional EMF expression (e = B l v)",
+                "Self-inductance of long solenoid (L = mu_0 n^2 A l)",
+                "Mutual inductance between two coaxial long solenoids",
+                "Energy stored in an inductor (U = 1/2 L I^2)"
+              ],
+              "numericalFocus": "Induced EMF from changing magnetic flux, self and mutual inductance calculations",
+              "diagrams": ["Lenz law direction schematics", "Coaxial solenoids arrangement"],
+              "practicalLinkage": "Demonstration of Lenz's law and electromagnetic damping"
+            },
+            {
+              "chapterNumber": 7,
+              "chapterName": "Alternating Current",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Alternating currents, peak and RMS value of alternating current/voltage",
+                "Reactance and impedance, phase relation across resistor, inductor and capacitor",
+                "LCR series circuit (phasor diagram method), resonance, quality factor (Q factor)",
+                "Power in AC circuits, wattless current, power factor",
+                "AC generator and Transformer (step-up and step-down, energy losses)"
+              ],
+              "keyDerivations": [
+                "RMS vs peak value relation (I_rms = I_0 / sqrt(2))",
+                "Impedance of series LCR circuit using phasor diagram",
+                "Resonance condition and frequency (omega_r = 1 / sqrt(LC))",
+                "Average power in AC circuit (P_avg = V_rms I_rms cos phi)",
+                "Transformer turn ratio and efficiency relation"
+              ],
+              "numericalFocus": "LCR circuit impedance, resonant frequency, power factor, transformer secondary voltage and current",
+              "diagrams": ["Phasor diagrams for L, C, R and series LCR", "Transformer core and coil schematics"],
+              "practicalLinkage": "Study of AC frequency using sonometer, transformer voltage measurements"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit V & VI",
+          "unitName": "Electromagnetic Waves and Optics",
+          "officialMarks": 18,
+          "chapters": [
+            {
+              "chapterNumber": 8,
+              "chapterName": "Electromagnetic Waves",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Basic idea of displacement current",
+                "Electromagnetic waves, their characteristics, their transverse nature (qualitative ideas only)",
+                "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays) including elementary facts about their uses"
+              ],
+              "keyDerivations": ["Displacement current formula (I_d = epsilon_0 dPhi_E / dt)"],
+              "numericalFocus": "Relation between E and B wave amplitudes (c = E_0 / B_0), frequency and wavelength calculations",
+              "diagrams": ["Electromagnetic wave showing mutually perpendicular E and B vectors"],
+              "practicalLinkage": "Detection of UV, IR radiation using sensors and prism spectrum"
+            },
+            {
+              "chapterNumber": 9,
+              "chapterName": "Ray Optics and Optical Instruments",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Refraction of light, total internal reflection and its applications, optical fibers",
+                "Refraction at spherical surfaces, lenses, thin lens formula, lensmaker's formula, magnification, power of a lens",
+                "Combination of thin lenses in contact",
+                "Refraction through a prism (angle of minimum deviation)",
+                "Optical instruments: Microscopes (compound) and astronomical telescopes (reflecting and refracting) and their magnifying powers"
+              ],
+              "keyDerivations": [
+                "Refraction at single spherical refracting surface",
+                "Lensmaker's formula (1/f = (mu - 1)(1/R1 - 1/R2))",
+                "Equivalent focal length of combination of two thin lenses in contact",
+                "Prism formula (mu = sin((A+D_m)/2) / sin(A/2))",
+                "Magnifying power of Compound Microscope (normal adjustment and distinct vision)",
+                "Magnifying power of Astronomical Telescope (refracting and Cassegrain reflecting)"
+              ],
+              "numericalFocus": "Lensmaker formula, lens combinations, microscope and telescope tube length and magnification",
+              "diagrams": ["Ray diagram of compound microscope", "Ray diagram of refracting and reflecting telescopes", "Prism refraction diagram"],
+              "practicalLinkage": "To find focal length of convex lens, concave mirror; angle of minimum deviation using prism spectrometer"
+            },
+            {
+              "chapterNumber": 10,
+              "chapterName": "Wave Optics",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Wave front and Huygens' principle, reflection and refraction of plane wave at a plane surface using wave fronts",
+                "Proof of laws of reflection and refraction using Huygens' principle",
+                "Interference, Young's double slit experiment and expression for fringe width",
+                "Coherent sources and sustained interference of light",
+                "Diffraction due to a single slit, width of central maximum"
+              ],
+              "keyDerivations": [
+                "Proof of Snell's Law and Law of Reflection using Huygens wavefront construction",
+                "Expression for fringe width in Young's Double Slit Experiment (beta = lambda D / d)",
+                "Width of central diffraction maximum (2 lambda D / a)"
+              ],
+              "numericalFocus": "Fringe width, ratio of maximum to minimum intensity in interference, angular spread of central diffraction peak",
+              "diagrams": ["Huygens wavelets reflection/refraction construction", "Young's double slit setup and fringe pattern", "Single slit diffraction intensity curve"],
+              "practicalLinkage": "Laser diffraction through single and double slits in darkroom"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit VII & VIII",
+          "unitName": "Dual Nature, Atoms and Nuclei",
+          "officialMarks": 12,
+          "chapters": [
+            {
+              "chapterNumber": 11,
+              "chapterName": "Dual Nature of Radiation and Matter",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Dual nature of radiation, Photoelectric effect, Hertz and Lenard's observations",
+                "Einstein's photoelectric equation - particle nature of light",
+                "Experimental study of photoelectric effect (intensity, frequency, stopping potential variations)",
+                "Matter waves - wave nature of particles, de-Broglie relation"
+              ],
+              "keyDerivations": [
+                "Einstein's photoelectric equation (h nu = phi_0 + K_max)",
+                "de-Broglie wavelength for particle accelerated through potential V (lambda = h / sqrt(2 m q V))"
+              ],
+              "numericalFocus": "Threshold frequency and work function, stopping potential graphs, de Broglie wavelength of electrons and alpha particles",
+              "diagrams": ["Photoelectric current vs collector potential graphs", "Stopping potential vs frequency graph (slope = h/e)"],
+              "practicalLinkage": "Photoelectric cell demonstration, solar cell IV characteristics"
+            },
+            {
+              "chapterNumber": 12,
+              "chapterName": "Atoms",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Alpha-particle scattering experiment; Rutherford's model of atom",
+                "Bohr model of hydrogen atom, postulates",
+                "Derivation of radius of nth orbit, velocity and total energy of electron in hydrogen atom",
+                "Hydrogen spectrum (Lyman, Balmer, Paschen, Brackett, Pfund series)"
+              ],
+              "keyDerivations": [
+                "Radius of nth Bohr orbit (r_n proportional to n^2)",
+                "Velocity of electron in nth orbit",
+                "Total energy of electron in nth orbit (E_n = -13.6 / n^2 eV)",
+                "Rydberg formula for spectral lines (1/lambda = R (1/n1^2 - 1/n2^2))"
+              ],
+              "numericalFocus": "Transition energies, maximum/minimum wavelength of spectral series, ionization potential",
+              "diagrams": ["Rutherford alpha scattering trajectories", "Bohr energy level diagram of hydrogen with spectral transitions"],
+              "practicalLinkage": "Hydrogen discharge tube spectrum observation with diffraction grating"
+            },
+            {
+              "chapterNumber": 13,
+              "chapterName": "Nuclei",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Composition and size of nucleus, atomic masses, isotopes, isobars, isotones",
+                "Nuclear force (properties)",
+                "Mass-energy relation, mass defect",
+                "Binding energy per nucleon and its variation with mass number",
+                "Nuclear fission and nuclear fusion"
+              ],
+              "keyDerivations": [
+                "Nuclear radius relation (R = R_0 A^(1/3))",
+                "Mass defect and binding energy calculation formula"
+              ],
+              "numericalFocus": "Binding energy per nucleon, Q-value of nuclear reactions, energy released in fission/fusion",
+              "diagrams": ["Binding energy per nucleon curve vs mass number A"],
+              "practicalLinkage": "Gieger-Muller counter radiation safety principles"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit IX",
+          "unitName": "Electronic Devices",
+          "officialMarks": 7,
+          "chapters": [
+            {
+              "chapterNumber": 14,
+              "chapterName": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Energy bands in conductors, semiconductors and insulators (qualitative ideas only)",
+                "Intrinsic and extrinsic semiconductors (n-type and p-type)",
+                "p-n junction: barrier potential, depletion layer formation",
+                "Semiconductor diode: I-V characteristics in forward and reverse bias",
+                "Diode as a rectifier (Half-wave and Full-wave rectifiers with filter capacitor)"
+              ],
+              "keyDerivations": [
+                "Operation of half-wave and full-wave rectifier",
+                "Rectification efficiency and output ripple frequency"
+              ],
+              "numericalFocus": "Dynamic forward and reverse resistance from IV curve, output DC voltage and ripple frequency of rectifiers",
+              "diagrams": ["Energy band diagrams", "Forward and reverse bias circuit diagrams and characteristic curves", "Full-wave rectifier circuit with centre-tapped transformer"],
+              "practicalLinkage": "To draw I-V characteristics of p-n junction diode in forward and reverse bias"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "code": "041",
+      "name": "Mathematics",
+      "hindiName": "गणित",
+      "theoryMarks": 80,
+      "practicalMarks": 20,
+      "totalMarks": 100,
+      "verified": true,
+      "assessmentStructure": {
+        "theory": "80 Marks (3 Hours duration)",
+        "internalAssessment": "20 Marks (Periodic tests 10 Marks, Mathematical Activities/Portfolio/Viva 10 Marks)",
+        "questionPaperDesign": "Section A (20 MCQs 1 mark each), Section B (5 VSA 2 marks), Section C (6 SA 3 marks), Section D (4 LA 5 marks), Section E (3 Case-based 4 marks each)"
+      },
+      "units": [
+        {
+          "unitNumber": "Unit I",
+          "unitName": "Relations and Functions",
+          "officialMarks": 10,
+          "chapters": [
+            {
+              "chapterNumber": 1,
+              "chapterName": "Relations and Functions",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Types of relations: reflexive, symmetric, transitive and equivalence relations",
+                "One to one and onto functions (injective, surjective, bijective)"
+              ],
+              "keyDerivations": ["Proof of equivalence relations", "Verification of injectivity and surjectivity for algebraic and piecewise functions"],
+              "numericalFocus": "Checking equivalence classes, determining whether a function is one-one and onto for various domains",
+              "diagrams": ["Arrow diagrams for one-one, onto and bijective functions"],
+              "practicalLinkage": "Activity to verify reflexive, symmetric and transitive relations using ordered pairs"
+            },
+            {
+              "chapterNumber": 2,
+              "chapterName": "Inverse Trigonometric Functions",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Definition, range, domain, principal value branch",
+                "Graphs of inverse trigonometric functions"
+              ],
+              "keyDerivations": ["Determination of principal values"],
+              "numericalFocus": "Evaluating principal value expressions of sin^-1, cos^-1, tan^-1, sec^-1, cosec^-1, cot^-1",
+              "diagrams": ["Graphs of y = sin^-1(x), y = cos^-1(x), y = tan^-1(x)"],
+              "practicalLinkage": "Activity to draw graphs of inverse trigonometric functions"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit II",
+          "unitName": "Algebra",
+          "officialMarks": 13,
+          "chapters": [
+            {
+              "chapterNumber": 3,
+              "chapterName": "Matrices",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Concept, notation, order, equality, types of matrices, zero and identity matrix",
+                "Transpose of a matrix, symmetric and skew-symmetric matrices",
+                "Operation on matrices: Addition and multiplication and multiplication with a scalar",
+                "Simple properties of addition, multiplication and scalar multiplication",
+                "Non-commutativity of multiplication of matrices and existence of non-zero matrices whose product is the zero matrix",
+                "Invertible matrices and proof of the uniqueness of inverse, if it exists"
+              ],
+              "keyDerivations": ["Uniqueness of inverse of a matrix ((AB)^-1 = B^-1 A^-1)", "Transpose properties ((AB)' = B' A')"],
+              "numericalFocus": "Matrix multiplication, symmetric and skew-symmetric decomposition (A = 1/2(A+A') + 1/2(A-A')), polynomial equations in matrices",
+              "diagrams": ["Matrix operation tabular schemes"],
+              "practicalLinkage": "Construction of matrices from real-world inventory data"
+            },
+            {
+              "chapterNumber": 4,
+              "chapterName": "Determinants",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Determinant of a square matrix (up to 3 x 3 matrices)",
+                "Minors, co-factors and applications of determinants in finding the area of a triangle",
+                "Adjoint and inverse of a square matrix",
+                "Consistency, inconsistency and number of solutions of system of linear equations by examples",
+                "Solving system of linear equations in two or three variables (having unique solution) using inverse of a matrix (Matrix Method)"
+              ],
+              "keyDerivations": ["Matrix inversion method formula (X = A^-1 B)", "Adjoint properties: A(adj A) = (adj A)A = |A| I"],
+              "numericalFocus": "Matrix method for 3-variable simultaneous equations (guaranteed 5-mark question), area of triangle using determinants, cofactors",
+              "diagrams": ["3x3 determinant cofactor sign pattern"],
+              "practicalLinkage": "Solving simultaneous economic/business models using matrix inversion"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit III",
+          "unitName": "Calculus",
+          "officialMarks": 35,
+          "chapters": [
+            {
+              "chapterNumber": 5,
+              "chapterName": "Continuity and Differentiability",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Continuity and differentiability, derivative of composite functions, chain rule, derivative of inverse trigonometric functions",
+                "Derivative of implicit functions, concept of exponential and logarithmic functions",
+                "Derivatives of logarithmic and exponential functions",
+                "Logarithmic differentiation, derivative of functions expressed in parametric forms",
+                "Second order derivatives"
+              ],
+              "keyDerivations": ["Proof of chain rule and implicit differentiation", "Second order differential equations verification"],
+              "numericalFocus": "Finding unknown constants k for continuity, logarithmic differentiation of variable-power-variable (e.g. x^sin x), parametric derivatives dy/dx and d^2y/dx^2",
+              "diagrams": ["Piecewise function continuity graphs", "Vertical and horizontal tangent behaviour"],
+              "practicalLinkage": "Activity to explore continuity and differentiability at points of corner/cusp"
+            },
+            {
+              "chapterNumber": 6,
+              "chapterName": "Applications of Derivatives",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Applications of derivatives: rate of change of quantities",
+                "Increasing/decreasing functions",
+                "Maxima and minima (first derivative test and second derivative test)",
+                "Simple problems that illustrate basic principles and understanding of the subject as well as real-life situations"
+              ],
+              "keyDerivations": ["First and second derivative test theorems for local extrema", "Optimization theorems for perimeter/volume"],
+              "numericalFocus": "Rate of change (ladder sliding, water draining cone), intervals of increasing/decreasing, optimization word problems (cylinders inscribed in spheres, open boxes)",
+              "diagrams": ["Local maxima and minima curves with tangent slopes"],
+              "practicalLinkage": "Activity to construct an open box of maximum volume from given cardboard sheet"
+            },
+            {
+              "chapterNumber": 7,
+              "chapterName": "Integrals",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Integration as inverse process of differentiation",
+                "Integration of a variety of functions by substitution, by partial fractions and by parts",
+                "Evaluation of standard integrals and reducible forms",
+                "Fundamental Theorem of Calculus (without proof)",
+                "Basic properties of definite integrals and evaluation of definite integrals"
+              ],
+              "keyDerivations": ["Integration by parts formula", "Definite integral king property: int_0^a f(x) dx = int_0^a f(a-x) dx"],
+              "numericalFocus": "Standard forms (dx/(x^2+a^2), dx/sqrt(x^2-a^2)), integration by parts with ILATE, partial fractions, definite integrals using symmetry properties",
+              "diagrams": ["Area under curve as limit of sums"],
+              "practicalLinkage": "Activity to approximate definite integral using trapezoids and rectangles"
+            },
+            {
+              "chapterNumber": 8,
+              "chapterName": "Applications of the Integrals",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Applications in finding the area under simple curves, especially lines, circles/parabolas/ellipses (in standard form only)"
+              ],
+              "keyDerivations": ["Area under standard ellipse and circle using definite integrals"],
+              "numericalFocus": "Area bounded between line and parabola, line and circle, standard ellipse quadrant areas",
+              "diagrams": ["Shaded regions between curves and coordinate axes with vertical strips"],
+              "practicalLinkage": "Calculating area of irregular shapes using numerical integration"
+            },
+            {
+              "chapterNumber": 9,
+              "chapterName": "Differential Equations",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Definition, order and degree, general and particular solutions of a differential equation",
+                "Solution of differential equations by method of separation of variables",
+                "Solutions of homogeneous differential equations of first order and first degree",
+                "Solutions of linear differential equations of the type dy/dx + P y = Q where P and Q are functions of x or constants"
+              ],
+              "keyDerivations": ["Integrating factor IF = e^(int P dx) derivation for linear differential equations"],
+              "numericalFocus": "Finding order and degree, variable separable method with initial values, homogeneous substitution y = vx, integrating factor linear equations",
+              "diagrams": ["Family of curves representing general solution vs single particular solution"],
+              "practicalLinkage": "Modelling population growth and Newton's law of cooling using differential equations"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit IV",
+          "unitName": "Vectors and Three-Dimensional Geometry",
+          "officialMarks": 14,
+          "chapters": [
+            {
+              "chapterNumber": 10,
+              "chapterName": "Vectors",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Vectors and scalars, magnitude and direction of a vector, direction cosines and direction ratios of a vector",
+                "Types of vectors (equal, unit, zero, parallel and collinear vectors)",
+                "Position vector of a point, negative of a vector, components of a vector, addition of vectors, multiplication of a vector by a scalar",
+                "Position vector of a point dividing a line segment in a given ratio",
+                "Geometrical interpretation, properties and application of scalar (dot) product of vectors",
+                "Vector (cross) product of vectors"
+              ],
+              "keyDerivations": ["Section formula in vector form", "Dot and cross product algebraic expressions and geometric interpretations"],
+              "numericalFocus": "Projection of a vector on another vector, finding unit vector perpendicular to two vectors, area of triangle and parallelogram using cross product",
+              "diagrams": ["Right hand thumb rule for cross product", "Vector addition triangle and parallelogram laws"],
+              "practicalLinkage": "Activity to find the angle between two vectors using scalar product"
+            },
+            {
+              "chapterNumber": 11,
+              "chapterName": "Three-Dimensional Geometry",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Direction cosines and direction ratios of a line joining two points",
+                "Cartesian equation and vector equation of a line",
+                "Skew lines and shortest distance between them (Cartesian and vector forms)",
+                "Angle between two lines"
+              ],
+              "keyDerivations": ["Shortest distance formula between two skew lines: d = |(b1 x b2) . (a2 - a1)| / |b1 x b2|"],
+              "numericalFocus": "Shortest distance between skew lines (frequent 5-mark question), collinearity of three points in 3D, angle between lines from direction ratios",
+              "diagrams": ["3D coordinate axes with direction angles alpha, beta, gamma", "Skew lines in 3D space with shortest distance perpendicular"],
+              "practicalLinkage": "Physical model representation of skew lines using rods and strings"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit V & VI",
+          "unitName": "Linear Programming and Probability",
+          "officialMarks": 13,
+          "chapters": [
+            {
+              "chapterNumber": 12,
+              "chapterName": "Linear Programming",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Introduction, related terminology such as constraints, objective function, optimization",
+                "Graphical method of solution for problems in two variables",
+                "Feasible and infeasible regions (bounded)",
+                "Feasible and infeasible solutions, optimal feasible solutions (up to three non-trivial constraints)"
+              ],
+              "keyDerivations": ["Corner point theorem explanation"],
+              "numericalFocus": "Maximization and minimization of Z = ax + by with bounded feasible region, corner point evaluation method",
+              "diagrams": ["Cartesian inequality boundary lines and shaded feasible convex polygonal region"],
+              "practicalLinkage": "Solving resource optimization and diet problems using graphical linear programming"
+            },
+            {
+              "chapterNumber": 13,
+              "chapterName": "Probability",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Conditional probability, multiplication rule on probability",
+                "Independent events, total probability",
+                "Bayes' theorem"
+              ],
+              "keyDerivations": ["Total probability theorem proof", "Bayes' theorem proof: P(E_i|A) = P(E_i)P(A|E_i) / sum(P(E_j)P(A|E_j))"],
+              "numericalFocus": "Bayes theorem applications (medical diagnostic tests, factory machine defective item probabilities - high weightage case study), independent events verification",
+              "diagrams": ["Tree diagrams for conditional and Bayes probability pathways"],
+              "practicalLinkage": "Simulation of medical test predictive values using Bayes theorem"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "code": "043",
+      "name": "Chemistry",
+      "hindiName": "रसायन विज्ञान",
+      "theoryMarks": 70,
+      "practicalMarks": 30,
+      "totalMarks": 100,
+      "verified": true,
+      "assessmentStructure": {
+        "theory": "70 Marks (3 Hours duration)",
+        "practical": "30 Marks (Volumetric analysis 8, Salt analysis 8, Content based experiment 6, Project work 4, Class record and viva 4)",
+        "questionPaperDesign": "Section A (16 MCQs 1 mark each), Section B (5 SA-I 2 marks), Section C (7 SA-II 3 marks), Section D (2 Case-based 4 marks each), Section E (3 LA 5 marks each)"
+      },
+      "units": [
+        {
+          "unitNumber": "Unit I",
+          "unitName": "Solutions",
+          "officialMarks": 7,
+          "chapters": [
+            {
+              "chapterNumber": 1,
+              "chapterName": "Solutions",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Types of solutions, expression of concentration of solutions of solids in liquids",
+                "Solubility of gases in liquids (Henry's law)",
+                "Solid solutions, Raoult's law, ideal and non-ideal solutions",
+                "Colligative properties - relative lowering of vapour pressure, elevation of boiling point, depression of freezing point, osmotic pressure",
+                "Determination of molecular masses using colligative properties",
+                "Abnormal molecular mass, Van't Hoff factor"
+              ],
+              "keyDerivations": [
+                "Raoult's law for volatile solutes",
+                "Elevation in boiling point Delta T_b = K_b * m",
+                "Depression in freezing point Delta T_f = K_f * m",
+                "Osmotic pressure pi = i C R T",
+                "Relation between van't Hoff factor i and degree of dissociation/association alpha"
+              ],
+              "numericalFocus": "Molarity, molality calculations, molecular mass determination from depression of freezing point, van't Hoff factor for strong/weak electrolytes",
+              "diagrams": ["Vapour pressure vs mole fraction graphs for ideal and non-ideal solutions (positive and negative deviations)", "Freezing point depression phase curve"],
+              "practicalLinkage": "Preparation of standard oxalic acid / Mohr's salt solution, determination of boiling point elevation"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit II",
+          "unitName": "Electrochemistry",
+          "officialMarks": 9,
+          "chapters": [
+            {
+              "chapterNumber": 2,
+              "chapterName": "Electrochemistry",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Redox reactions, EMF of a cell, standard electrode potential",
+                "Nernst equation and its application to chemical cells",
+                "Relation between Gibbs energy change and EMF of a cell",
+                "Conductance in electrolytic solutions, specific and molar conductivity",
+                "Variations of conductivity and molar conductivity with concentration, Kohlrausch's Law and its applications",
+                "Electrolysis and laws of electrolysis (elementary idea)",
+                "Dry cell - electrolytic cells and Galvanic cells, lead accumulator, fuel cells, corrosion"
+              ],
+              "keyDerivations": [
+                "Nernst equation: E_cell = E^0_cell - (0.0591/n) log Q at 298K",
+                "Relation Delta G^0 = -n F E^0_cell and log K_c = n E^0_cell / 0.0591",
+                "Kohlrausch's law of independent migration of ions"
+              ],
+              "numericalFocus": "Cell potential using Nernst equation, equilibrium constant K_c, molar conductivity at infinite dilution, limiting molar conductivity",
+              "diagrams": ["Daniel cell electrochemical setup with salt bridge", "Molar conductivity vs sqrt(c) for strong and weak electrolytes (Debye-Huckel-Onsager plot)", "Lead storage battery reactions"],
+              "practicalLinkage": "Setting up Daniel cell and measuring change in potential with changing Cu2+ and Zn2+ concentrations"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit III",
+          "unitName": "Chemical Kinetics",
+          "officialMarks": 7,
+          "chapters": [
+            {
+              "chapterNumber": 3,
+              "chapterName": "Chemical Kinetics",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Rate of a reaction (average and instantaneous), factors affecting rates of reaction: concentration, temperature, catalyst",
+                "Order and molecularity of a reaction, rate law and specific rate constant",
+                "Integrated rate equations and half-life (only for zero and first order reactions)",
+                "Concept of collision theory (elementary ideas, no mathematical treatment)",
+                "Activation energy, Arrhenius equation"
+              ],
+              "keyDerivations": [
+                "Integrated rate equation for zero order reaction (k = ([R]_0 - [R])/t)",
+                "Integrated rate equation for first order reaction (k = (2.303/t) log([R]_0 / [R]))",
+                "Half-life expressions: t_1/2 = [R]_0 / (2k) for zero order, t_1/2 = 0.693 / k for first order",
+                "Arrhenius equation two-temperature form: log(k2/k1) = E_a/(2.303 R) * (1/T1 - 1/T2)"
+              ],
+              "numericalFocus": "Finding order from initial rate table, calculating rate constant and half-life, percentage completion time, Arrhenius activation energy calculation",
+              "diagrams": ["Concentration vs time graphs for zero and first order", "log k vs 1/T Arrhenius plot (slope = -E_a / 2.303R)", "Energy profile diagram showing activation energy with and without catalyst"],
+              "practicalLinkage": "Study of reaction rate between sodium thiosulphate and hydrochloric acid (clock reaction)"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit IV",
+          "unitName": "d- and f-Block Elements & Coordination Compounds",
+          "officialMarks": 14,
+          "chapters": [
+            {
+              "chapterNumber": 4,
+              "chapterName": "The d- and f-Block Elements",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "General introduction, electronic configuration, occurrence, characteristics of transition metals",
+                "General trends in properties of first row transition metals: metallic character, ionization enthalpy, oxidation states, ionic radii, colour, catalytic property, magnetic properties, interstitial compounds, alloy formation",
+                "Preparation and properties of K2Cr2O7 and KMnO4",
+                "Lanthanoids: Electronic configuration, oxidation states, chemical reactivity and lanthanoid contraction and its consequences",
+                "Actinoids: Electronic configuration, oxidation states and comparison with lanthanoids"
+              ],
+              "keyDerivations": ["Spin-only magnetic moment formula (mu = sqrt(n(n+2)) BM)", "Balancing redox equations of KMnO4 and K2Cr2O7 in acidic medium"],
+              "numericalFocus": "Spin-only magnetic moment from unpaired d-electrons, oxidation state determination",
+              "diagrams": ["Structures of chromate, dichromate, manganate and permanganate ions", "Lanthanoid contraction atomic radii trend line"],
+              "practicalLinkage": "Qualitative analysis of transition metal cations (Fe2+, Fe3+, Cu2+, Ni2+, Mn2+)"
+            },
+            {
+              "chapterNumber": 5,
+              "chapterName": "Coordination Compounds",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Coordination compounds: Introduction, ligands, coordination number, colour, magnetic properties and shapes",
+                "IUPAC nomenclature of mononuclear coordination compounds",
+                "Bonding, Werner's theory, VBT (Valence Bond Theory) and CFT (Crystal Field Theory)",
+                "Isomerism: Structural (linkage, coordination, ionization, hydrate) and Stereoisomerism (geometrical and optical in 4 and 6 coordinate complexes)",
+                "Importance of coordination compounds (in qualitative analysis, biological systems)"
+              ],
+              "keyDerivations": ["Crystal field splitting in octahedral (Delta_o) and tetrahedral (Delta_t) complexes", "Electronic configuration in t2g and eg sets for weak and strong field ligands"],
+              "numericalFocus": "Calculation of CFSE (Crystal Field Stabilization Energy), determining hybridization (sp3d2 vs d2sp3) and magnetic behaviour (inner vs outer orbital complex)",
+              "diagrams": ["Crystal field splitting d-orbital energy level diagram for octahedral and tetrahedral geometries", "Facial and meridional geometrical isomers of Ma3b3 complexes"],
+              "practicalLinkage": "Preparation of potassium trioxalatoferrate(III) crystals"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit V",
+          "unitName": "Organic Chemistry I: Haloalkanes, Alcohols and Ethers",
+          "officialMarks": 12,
+          "chapters": [
+            {
+              "chapterNumber": 6,
+              "chapterName": "Haloalkanes and Haloarenes",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Haloalkanes: Nomenclature, nature of C-X bond, physical and chemical properties, mechanism of substitution reactions (SN1 vs SN2)",
+                "Optical rotation and inversion/retention of configuration",
+                "Haloarenes: Nature of C-X bond, substitution reactions (directive influence of halogen for monosubstituted compounds only)",
+                "Uses and environmental effects of dichloromethane, trichloromethane, tetrachloromethane, iodoform, freons, DDT"
+              ],
+              "keyDerivations": [
+                "SN1 mechanism (two steps, carbocation intermediate, racemisation)",
+                "SN2 mechanism (single step, backside attack, transition state, Walden inversion)",
+                "Low reactivity of haloarenes towards nucleophilic substitution"
+              ],
+              "numericalFocus": "Order of reactivity towards SN1 and SN2, identification of chiral carbons, optical isomer count",
+              "diagrams": ["Walden inversion transition state diagram", "Resonance structures of chlorobenzene showing partial double bond character"],
+              "practicalLinkage": "Silver nitrate distinction test for alkyl vs aryl halides"
+            },
+            {
+              "chapterNumber": 7,
+              "chapterName": "Alcohols, Phenols and Ethers",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Alcohols: Nomenclature, methods of preparation, physical and chemical properties (of primary alcohols only)",
+                "Identification of primary, secondary and tertiary alcohols (Lucas test, copper at 573K)",
+                "Mechanism of dehydration of ethanol to ethene",
+                "Phenols: Nomenclature, methods of preparation (from cumene, diazonium salts), physical and chemical properties, acidic nature of phenol",
+                "Electrophilic aromatic substitution: Nitration, Reimer-Tiemann reaction, Kolbe's reaction",
+                "Ethers: Nomenclature, methods of preparation (Williamson synthesis), physical and chemical properties, cleavage of C-O bond by HI"
+              ],
+              "keyDerivations": [
+                "Acid-catalysed dehydration mechanism of ethanol to ethene",
+                "Addition of water to alkene mechanism (Markovnikov hydration)",
+                "Williamson ether synthesis mechanism and limitations"
+              ],
+              "numericalFocus": "Product prediction for unsymmetrical ether cleavage by HI (steric control vs carbocation stability), acidity order comparison",
+              "diagrams": ["Resonance structures of phenoxide ion", "Mechanism schematics with curved arrows"],
+              "practicalLinkage": "Lucas test for 1, 2, 3 alcohols, neutral FeCl3 test for phenolic group"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit VI",
+          "unitName": "Organic Chemistry II: Aldehydes, Ketones, Carboxylic Acids, Amines & Biomolecules",
+          "officialMarks": 21,
+          "chapters": [
+            {
+              "chapterNumber": 8,
+              "chapterName": "Aldehydes, Ketones and Carboxylic Acids",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Aldehydes and Ketones: Nomenclature, nature of carbonyl group, methods of preparation, physical and chemical properties",
+                "Mechanism of nucleophilic addition, reactivity of aldehydes and ketones",
+                "Name reactions: Aldol condensation, Cross Aldol, Cannizzaro reaction, Clemmensen reduction, Wolff-Kishner reduction, Tollens test, Fehling test, Iodoform test",
+                "Carboxylic Acids: Nomenclature, acidic nature, methods of preparation, physical and chemical properties",
+                "Decarboxylation and Hell-Volhard-Zelinsky (HVZ) reaction"
+              ],
+              "keyDerivations": [
+                "Nucleophilic addition to carbonyl carbon mechanism (HCN, NaHSO3, Grignard reagent)",
+                "Aldol condensation mechanism with enolate ion",
+                "Cannizzaro hydride transfer mechanism",
+                "Acidity comparison: substituted benzoic acids vs acetic acid"
+              ],
+              "numericalFocus": "Organic conversion roadmaps (e.g. benzene to acetophenone, ethanol to 3-hydroxybutanal), distinction test problems",
+              "diagrams": ["Carbonyl dipole resonance structure", "Tetrahedral intermediate in nucleophilic addition"],
+              "practicalLinkage": "Tollens silver mirror test, Fehling solution test, sodium bisulphite test"
+            },
+            {
+              "chapterNumber": 9,
+              "chapterName": "Amines",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Amines: Nomenclature, classification, structure, methods of preparation, physical and chemical properties",
+                "Basic character of amines (comparison in gas phase vs aqueous solution)",
+                "Identification of primary, secondary and tertiary amines (Hinsberg test, Carbylamine test, Nitrous acid test)",
+                "Diazonium salts: Preparation, chemical reactions and importance in synthetic organic chemistry (Sandmeyer, Gattermann, Azo coupling)"
+              ],
+              "keyDerivations": [
+                "Carbylamine test reaction",
+                "Hinsberg test mechanism with benzenesulphonyl chloride",
+                "Azo dye formation coupling reaction with phenol and beta-naphthol"
+              ],
+              "numericalFocus": "Order of basic strength in aqueous solution ((CH3)2NH > CH3NH2 > (CH3)3N vs (C2H5)2NH > (C2H5)3N > C2H5NH2), multi-step synthesis",
+              "diagrams": ["Resonance structures of benzenediazonium chloride and aniline"],
+              "practicalLinkage": "Carbylamine test for primary amines, azo dye test for aromatic primary amines"
+            },
+            {
+              "chapterNumber": 10,
+              "chapterName": "Biomolecules",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Carbohydrates: Classification (aldoses and ketoses), monosaccharides (glucose and fructose), D-L configuration",
+                "Structure of glucose (open chain and Haworth cyclic pyranose structures)",
+                "Proteins: Elementary idea of amino acids, peptide bond, polypeptides, proteins, structure of proteins (primary, secondary, tertiary, quaternary)",
+                "Denaturation of proteins, enzymes",
+                "Hormones: Elementary idea excluding structure",
+                "Vitamins: Classification and deficiency diseases",
+                "Nucleic Acids: DNA and RNA, chemical composition, functions"
+              ],
+              "keyDerivations": [
+                "Chemical evidence for the open chain structure of glucose (HI reaction, Br2 water, HNO3, acetic anhydride)",
+                "Haworth alpha-D-glucopyranose and beta-D-glucopyranose projections"
+              ],
+              "numericalFocus": "Isoelectric point concepts, peptide linkage count in oligopeptides, vitamin deficiency matching",
+              "diagrams": ["Haworth structures of alpha and beta D-glucose and D-fructose", "Double helix schematic of DNA with complementary base pairing A-T and G-C"],
+              "practicalLinkage": "Biuret test for proteins, Ninhydrin test for amino acids, Molisch test for carbohydrates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "code": "044",
+      "name": "Biology",
+      "hindiName": "जीव विज्ञान",
+      "theoryMarks": 70,
+      "practicalMarks": 30,
+      "totalMarks": 100,
+      "verified": true,
+      "assessmentStructure": {
+        "theory": "70 Marks (3 Hours duration)",
+        "practical": "30 Marks (One major experiment 5, One minor experiment 4, Slide preparation 5, Spotting 7, Practical record and viva 4, Investigatory project 5)",
+        "questionPaperDesign": "Section A (16 questions of 1 mark each including 4 Assertion-Reasoning), Section B (5 questions of 2 marks), Section C (7 questions of 3 marks), Section D (2 Case-based of 4 marks), Section E (3 Long questions of 5 marks)"
+      },
+      "units": [
+        {
+          "unitNumber": "Unit VI",
+          "unitName": "Reproduction",
+          "officialMarks": 16,
+          "chapters": [
+            {
+              "chapterNumber": 2,
+              "chapterName": "Sexual Reproduction in Flowering Plants",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Flower structure, development of male and female gametophytes",
+                "Pollination: types, agencies and examples",
+                "Outbreeding devices, pollen-pistil interaction",
+                "Double fertilization",
+                "Post-fertilization events: development of endosperm and embryo, development of seed and formation of fruit",
+                "Special modes: apomixis, parthenocarpy, polyembryony"
+              ],
+              "keyDerivations": ["Ploidy levels of endosperm (3n), zygote (2n), aleurone layer (3n), antipodal cells (n)"],
+              "numericalFocus": "Calculating number of meiotic divisions required to produce N seeds, ploidy calculations",
+              "diagrams": ["TS of mature anther showing four microsporangia", "Anatropous ovule showing embryo sac (7-celled, 8-nucleate structure)", "Stages in dicot embryo development"],
+              "practicalLinkage": "Pollen germination on cavity slide, dissection of flower to display floral parts"
+            },
+            {
+              "chapterNumber": 3,
+              "chapterName": "Human Reproduction",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Male and female reproductive systems",
+                "Microscopic anatomy of testis and ovary",
+                "Gametogenesis: spermatogenesis and oogenesis",
+                "Menstrual cycle",
+                "Fertilization, embryo development up to blastocyst formation, implantation",
+                "Pregnancy and placenta formation (elementary idea)",
+                "Parturition and lactation (elementary idea)"
+              ],
+              "keyDerivations": ["Hormonal feedback loop (GnRH, LH, FSH, Estrogen, Progesterone) in menstrual cycle"],
+              "numericalFocus": "Oocyte counts, meiotic stages duration, sperm count viability parameters",
+              "diagrams": ["Diagrammatic representation of spermatogenesis and oogenesis", "Hormonal levels graph during 28-day menstrual cycle (LH surge)", "Sectional view of seminiferous tubule and mature Graafian follicle"],
+              "practicalLinkage": "Identification of TS of testis and ovary through permanent slides under compound microscope"
+            },
+            {
+              "chapterNumber": 4,
+              "chapterName": "Reproductive Health",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Need for reproductive health and prevention of Sexually Transmitted Infections (STIs)",
+                "Birth control: need and methods (barrier, hormonal, IUDs, surgical)",
+                "Contraception and Medical Termination of Pregnancy (MTP)",
+                "Amniocentesis (significance and statutory ban)",
+                "Infertility and Assisted Reproductive Technologies (ART): IVF, ZIFT, GIFT, ICSI"
+              ],
+              "keyDerivations": ["Mechanism of action of Copper-T (Cu ions suppress sperm motility) and Saheli (non-steroidal oral pill)"],
+              "numericalFocus": "Demographic statistics interpretation, efficacy rate comparison of contraceptives",
+              "diagrams": ["Vasectomy and tubectomy surgical interventions schematic"],
+              "practicalLinkage": "Study of family planning methods and contraceptives display models"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit VII",
+          "unitName": "Genetics and Evolution",
+          "officialMarks": 20,
+          "chapters": [
+            {
+              "chapterNumber": 5,
+              "chapterName": "Principles of Inheritance and Variation",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Mendelian inheritance, deviations from Mendelism: incomplete dominance, co-dominance, multiple alleles (ABO blood groups)",
+                "Pleiotropy, elementary idea of polygenic inheritance",
+                "Chromosome theory of inheritance",
+                "Chromosomes and genes, sex determination in humans, birds, honey bee",
+                "Linkage and crossing over (Morgan's Drosophila experiments)",
+                "Sex-linked inheritance: Haemophilia, Colour blindness",
+                "Mendelian disorders in humans: Thalassemia, Sickle cell anaemia, Phenylketonuria",
+                "Chromosomal disorders in humans: Down's syndrome, Turner's syndrome, Klinefelter's syndrome"
+              ],
+              "keyDerivations": ["Dihybrid cross phenotypic ratio (9:3:3:1) derivation and test cross (1:1:1:1)"],
+              "numericalFocus": "Pedigree analysis problems, probability of offspring carrying sex-linked recessive allele, blood group inheritance crosses",
+              "diagrams": ["Morgan's cross showing linkage on X-chromosome of Drosophila", "Pedigree charts for autosomal dominant, autosomal recessive and sex-linked traits", "Karyotypes of Down's, Turner's, Klinefelter's syndromes"],
+              "practicalLinkage": "Pedigree charts analysis of genetic traits in human families"
+            },
+            {
+              "chapterNumber": 6,
+              "chapterName": "Molecular Basis of Inheritance",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Search for genetic material: Griffith's transformation, Avery-MacLeod-McCarty, Hershey-Chase bacteriophage experiment",
+                "Structure of DNA and RNA, DNA packaging in eukaryotes (nucleosome)",
+                "DNA replication: Meselson and Stahl's semi-conservative proof, replication machinery",
+                "Transcription: transcription unit, promoter, RNA polymerase, post-transcriptional modifications (capping, tailing, splicing)",
+                "Genetic code: properties of genetic code (degenerate, unambiguous, universal, wobble)",
+                "Translation: initiation, elongation, termination, tRNA adapter molecule",
+                "Gene expression and regulation: lac Operon in E. coli",
+                "Human Genome Project (goals, salient features), DNA Fingerprinting"
+              ],
+              "keyDerivations": ["Chargaff's rules of base equivalence (A+G = T+C)", "Mechanism of lac operon in presence and absence of inducer (allolactose)"],
+              "numericalFocus": "Base pair count calculations, length of DNA molecule from bp count, codon and amino acid sequence decoding",
+              "diagrams": ["Nucleosome model showing histone octamer and H1 histone", "Replication fork showing continuous and Okazaki discontinuous synthesis", "lac Operon switch on/off schematic", "DNA fingerprinting autoradiogram bands matching"],
+              "practicalLinkage": "Isolation of DNA from available plant material (spinach leaves/banana) using chilled ethanol"
+            },
+            {
+              "chapterNumber": 7,
+              "chapterName": "Evolution",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Origin of life: Oparin-Haldane chemical evolution hypothesis, Miller-Urey experiment",
+                "Biological evolution and evidences for biological evolution (palaeontology, comparative anatomy, embryology, molecular evidence)",
+                "Darwin's contribution, modern synthetic theory of evolution",
+                "Mechanism of evolution: variation (mutation and recombination) and natural selection with types (stabilizing, directional, disruptive)",
+                "Gene flow and genetic drift",
+                "Hardy-Weinberg principle and algebraic equation",
+                "Adaptive radiation (Darwin's finches, Australian marsupials)",
+                "Human evolution (Dryopithecus, Australopithecus, Homo habilis, Homo erectus, Neanderthal, Homo sapiens)"
+              ],
+              "keyDerivations": ["Hardy-Weinberg equilibrium equation derivation: p^2 + 2pq + q^2 = 1"],
+              "numericalFocus": "Calculating allele frequencies p and q, carrier frequency 2pq from disease prevalence q^2",
+              "diagrams": ["Miller-Urey spark discharge apparatus diagram", "Homologous (divergent) vs analogous (convergent) forelimb structures", "Three types of natural selection curves (stabilizing, directional, disruptive)"],
+              "practicalLinkage": "Study of homologous and analogous organs in plants and animals from preserved specimens"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit VIII",
+          "unitName": "Biology and Human Welfare",
+          "officialMarks": 12,
+          "chapters": [
+            {
+              "chapterNumber": 8,
+              "chapterName": "Human Health and Disease",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Pathogens, parasites causing human diseases: Malaria (Plasmodium life cycle), Filariasis, Ascariasis, Typhoid, Pneumonia, Common cold, Amoebiasis, Ring worm",
+                "Basic concepts of immunology: innate and acquired immunity, active and passive immunity",
+                "Vaccines and vaccination",
+                "Structure of antibody molecule (H2L2)",
+                "Allergies, autoimmunity",
+                "Immune system in the body (primary and secondary lymphoid organs)",
+                "Cancer (causes, oncogenes, detection, treatment)",
+                "HIV and AIDS (structure, life cycle of retrovirus, transmission, prevention)",
+                "Adolescence, drug and alcohol abuse"
+              ],
+              "keyDerivations": ["Life cycle stages of Plasmodium vivax in female Anopheles mosquito and human host"],
+              "numericalFocus": "Incubation periods, antibody titrations, CD4 helper T-cell counts in AIDS staging",
+              "diagrams": ["Plasmodium life cycle schematic in human and mosquito", "Structure of an antibody molecule (variable and constant regions)", "Replication of retrovirus HIV inside human macrophage and helper T-cell"],
+              "practicalLinkage": "Study of common disease-causing organisms (Entamoeba, Plasmodium, Ascaris, Ringworm) through permanent slides"
+            },
+            {
+              "chapterNumber": 10,
+              "chapterName": "Microbes in Human Welfare",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Microbes in household food processing (Lactobacillus, baker's yeast Saccharomyces cerevisiae)",
+                "Microbes in industrial production (fermented beverages, antibiotics, chemicals, enzymes and other bioactive molecules e.g. cyclosporin A, statins)",
+                "Microbes in sewage treatment (primary and secondary aerobic/anaerobic biological treatment, BOD significance)",
+                "Microbes in production of biogas (methanogens Methanobacterium in anaerobic sludge digesters)",
+                "Microbes as biocontrol agents (Bacillus thuringiensis, Trichoderma, Baculoviruses/NPV)",
+                "Microbes as biofertilizers (Rhizobium, Azospirillum, Azotobacter, Mycorrhiza/Glomus, Cyanobacteria)"
+              ],
+              "keyDerivations": ["Biological Oxygen Demand (BOD) inverse relation with sewage purification efficiency"],
+              "numericalFocus": "BOD value comparison between polluted and treated water",
+              "diagrams": ["Schematic diagram of sewage treatment plant (STP)", "A typical biogas plant diagram with floating gas holder"],
+              "practicalLinkage": "Measurement of water clarity and suspended pollutants from two different water bodies"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit IX",
+          "unitName": "Biotechnology and its Applications",
+          "officialMarks": 12,
+          "chapters": [
+            {
+              "chapterNumber": 11,
+              "chapterName": "Biotechnology: Principles and Processes",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Genetic engineering (Recombinant DNA Technology)",
+                "Tools of recombinant DNA technology: Restriction enzymes (endonucleases, palindromic sequences, sticky ends), DNA ligase, polymerase",
+                "Cloning vectors (characteristics of ideal vector, pBR322 origin of replication, selectable markers ampR and tetR, insertional inactivation, vectors for cloning in plants Agrobacterium and animals retroviruses)",
+                "Competent host for transformation (heat shock method, microinjection, gene gun/biolistics)",
+                "Processes of recombinant DNA technology: isolation of DNA, cutting at specific sites, PCR (Polymerase Chain Reaction - denaturation, annealing, extension)",
+                "Bioreactors (stirred tank, sparged) and downstream processing"
+              ],
+              "keyDerivations": ["PCR amplification formula: 2^n copies after n cycles", "Insertional inactivation mechanism of beta-galactosidase gene (blue-white screening)"],
+              "numericalFocus": "Amplification yield after n cycles of PCR, restriction digest fragment sizing",
+              "diagrams": ["E. coli cloning vector pBR322 restriction map", "Steps in recombinant DNA technology using foreign DNA and vector DNA", "Polymerase Chain Reaction (PCR) steps", "Simple stirred-tank and sparged stirred-tank bioreactors"],
+              "practicalLinkage": "Agarose gel electrophoresis demonstration and DNA band visualization under UV illuminator"
+            },
+            {
+              "chapterNumber": 12,
+              "chapterName": "Biotechnology and its Applications",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Applications of biotechnology in agriculture: genetically modified organisms (Bt cotton - Cry proteins and insect resistance, RNA interference/RNAi in Meloidogyne incognita resistance)",
+                "Applications in medicine: genetically engineered insulin (Humulin proinsulin processing), gene therapy (ADA deficiency treatment using retroviral vector into lymphocytes), molecular diagnosis (ELISA, PCR)",
+                "Transgenic animals: reasons for creating transgenic models (physiology, disease study, biological products alpha-1-antitrypsin, vaccine safety testing, chemical safety testing)",
+                "Biosafety and ethical issues, biopiracy and patenting of indigenous resources"
+              ],
+              "keyDerivations": ["RNA interference (RNAi) mechanism: dsRNA cleavage by Dicer into siRNA and RISC silencing of viral/nematode mRNA"],
+              "numericalFocus": "Analysis of transgenic livestock yield efficiency, ELISA optical density correlations",
+              "diagrams": ["Maturation of pro-insulin into active insulin by removal of C-peptide", "RNA interference cellular defense mechanism pathway"],
+              "practicalLinkage": "Study of GM crops samples (Bt cotton boll vs non-Bt boll damage comparison)"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit X",
+          "unitName": "Ecology and Environment",
+          "officialMarks": 10,
+          "chapters": [
+            {
+              "chapterNumber": 13,
+              "chapterName": "Organisms and Populations",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Population: population attributes (birth rate, death rate, sex ratio, age pyramids - expanding, stable, declining)",
+                "Population growth: factors affecting population size (natality, mortality, immigration, emigration)",
+                "Growth models: exponential growth (J-shaped, dN/dt = rN) and logistic growth (S-shaped Verhulst-Pearl logistic, dN/dt = rN((K-N)/K))",
+                "Population interactions: Mutualism, Competition (Gause's competitive exclusion principle), Predation, Parasitism, Commensalism, Amensalism"
+              ],
+              "keyDerivations": ["Exponential growth equation: N_t = N_0 e^(rt)", "Verhulst-Pearl logistic growth equation derivation with carrying capacity K"],
+              "numericalFocus": "Calculating intrinsic rate of natural increase r, population size projection after t generations, carrying capacity evaluations",
+              "diagrams": ["Age pyramids for human population (expanding, stable, declining)", "Exponential and logistic population growth curves", "Mutualistic interactions (fig and wasp, lichen, mycorrhiza)"],
+              "practicalLinkage": "Study of plant population density and frequency by quadrat method"
+            },
+            {
+              "chapterNumber": 14,
+              "chapterName": "Ecosystem",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Ecosystems: patterns, components, productivity and decomposition",
+                "Energy flow: food chains, food webs, 10% law of energy transfer (Lindeman)",
+                "Pyramids of number, biomass and energy (upright vs inverted pyramids)",
+                "Ecological succession (primary and secondary, hydrarch and xerarch succession)",
+                "Nutrient cycling and ecosystem services (carbon/phosphorus cycles, Robert Costanza valuation)"
+              ],
+              "keyDerivations": ["10 percent law energy transfer calculations along trophic levels"],
+              "numericalFocus": "Trophic level energy transfer efficiency, primary vs secondary productivity (GPP - R = NPP)",
+              "diagrams": ["Pyramid of biomass in sea (inverted) vs terrestrial (upright)", "Ecological succession stages from pioneer to climax community"],
+              "practicalLinkage": "Study of aquatic ecosystem food chain and trophic levels"
+            },
+            {
+              "chapterNumber": 15,
+              "chapterName": "Biodiversity and its Conservation",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Concept of biodiversity, levels of biodiversity (genetic, species, ecological)",
+                "Patterns of biodiversity: latitudinal gradients, species-area relationships (Alexander von Humboldt)",
+                "Importance of biodiversity: David Tilman's plots, Paul Ehrlich's 'Rivet popper hypothesis'",
+                "Loss of biodiversity: causes - 'The Evil Quartet' (habitat loss and fragmentation, over-exploitation, alien species invasions, co-extinctions)",
+                "Biodiversity conservation: in-situ conservation (National parks, wildlife sanctuaries, biosphere reserves, sacred groves) and ex-situ conservation (zoological parks, botanical gardens, cryopreservation, seed banks)",
+                "International conventions: Earth Summit (Rio de Janeiro 1992), World Summit (Johannesburg 2002)"
+              ],
+              "keyDerivations": ["Species-area relationship equation: log S = log C + Z log A (regression coefficient Z)"],
+              "numericalFocus": "Calculating species richness using logarithmic species-area relation, percentage of threatened species across taxa",
+              "diagrams": ["Species-area relationship rectangular hyperbola and log-log straight line graph", "Global pie charts showing representation of taxa (invertebrates, vertebrates, plants)"],
+              "practicalLinkage": "Documentation of biodiversity in local school campus or botanical garden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "painting",
+      "code": "049",
+      "name": "Painting",
+      "hindiName": "चित्रकला (ललित कला)",
+      "theoryMarks": 30,
+      "practicalMarks": 70,
+      "totalMarks": 100,
+      "verified": true,
+      "assessmentStructure": {
+        "theory": "30 Marks (2 Hours duration)",
+        "practical": "70 Marks (Nature and Object Study 25, Painting Composition 25, Portfolio Assessment 20)",
+        "questionPaperDesign": "Section A (8 MCQs 1 mark each), Section B (Short answer questions 5 marks each on origin, sub-schools, and characteristics), Section C (Long analytical evaluation of paintings and sculptures 6 marks each)"
+      },
+      "units": [
+        {
+          "unitNumber": "Unit 1",
+          "unitName": "The Rajasthani and Pahari Schools of Miniature Painting",
+          "officialMarks": 10,
+          "chapters": [
+            {
+              "chapterNumber": 1,
+              "chapterName": "The Rajasthani School of Miniature Painting",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Origin and development of Rajasthani School (16th to 19th century A.D.)",
+                "Sub-schools of Rajasthani style: Mewar, Bundi, Jodhpur, Bikaner, Kishangarh, Jaipur",
+                "Main features and characteristics of Rajasthani School (human forms, glowing colors, themes of Radha-Krishna, nature and seasons)",
+                "Study of Prescribed Paintings: Maru Ragini (Mewar), Chaugan Players (Jodhpur), Krishna on Swing (Bikaner), Radha (Bani-Thani) by Nihal Chand (Kishangarh), Bharat Meets Rama at Chitrakuta (Jaipur)"
+              ],
+              "keyDerivations": ["Artistic style analysis and symbolic representation in Bani-Thani by Nihal Chand"],
+              "numericalFocus": "Chronological timeline of sub-schools and royal patrons",
+              "diagrams": ["Color palette and compositional geometry in Mewar and Kishangarh paintings"],
+              "practicalLinkage": "Study of miniature painting brush techniques, natural pigments preparation"
+            },
+            {
+              "chapterNumber": 2,
+              "chapterName": "The Pahari School of Miniature Painting",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Origin and development of Pahari School in Himalayan sub-states (17th to 19th century A.D.)",
+                "Sub-schools: Basohli, Guler, Kangra, Chamba, Garhwal",
+                "Main features: lyrical charm, rhythmic lines, tranquil female depictions, Bhagavata Purana and Gita Govinda themes",
+                "Study of Prescribed Paintings: Krishna with Gopis (Basohli School by Manaku), Nand, Yashoda and Krishna with Kinsmen going to Vrindavana (Kangra School by Nainsukh)"
+              ],
+              "keyDerivations": ["Comparison of bold Basohli style vs delicate lyrical Kangra line work"],
+              "numericalFocus": "Historical dating of Nainsukh and Manaku royal ateliers",
+              "diagrams": ["Compositional analysis of Krishna with Gopis and landscape backdrop"],
+              "practicalLinkage": "Landscape composition in watercolor using wash and tempera methods"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit 2",
+          "unitName": "The Mughal and Deccan Schools of Miniature Painting",
+          "officialMarks": 10,
+          "chapters": [
+            {
+              "chapterNumber": 3,
+              "chapterName": "The Mughal School of Miniature Painting",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Origin and development under Akbar, Jahangir, Shah Jahan, and decline under Aurangzeb",
+                "Synthesis of Persian, indigenous Indian and European realistic elements",
+                "Features: calligraphic borders (hashiya), portraiture (shabih), durbar scenes, flora and fauna",
+                "Study of Prescribed Paintings: Krishna Lifting Mount Govardhan (Miskin, Akbar atelier), Falcon on a Bird-Rest (Ustad Mansur, Jahangir atelier), Kabir and Raidas (Ustad Faquirullah Khan, Shah Jahan atelier), Marriage Procession of Dara Shikoh (Haji Madani)"
+              ],
+              "keyDerivations": ["Naturalistic bird depiction and master shading in Ustad Mansur's Falcon on a Bird-Rest"],
+              "numericalFocus": "Reign periods of Mughal emperors and development phases of the imperial atelier",
+              "diagrams": ["Ornate border decoration (hashiya) motifs and perspective layering"],
+              "practicalLinkage": "Object study with precise gouache brushwork and delicate shading"
+            },
+            {
+              "chapterNumber": 4,
+              "chapterName": "The Deccan School of Miniature Painting",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "Moderate Priority (Analytical Guide)",
+              "coreTopics": [
+                "Origin and development in southern sultanates: Ahmednagar, Bijapur, Golconda, Hyderabad",
+                "Features: rich sensuous colors, Persian delicacy merged with South Indian warmth, use of gold and tall slender figures",
+                "Study of Prescribed Paintings: Hazrat Nizamuddin Auliya and Amir Khusro (Hyderabad School), Chand Bibi Playing Polo (Golconda/Bijapur)"
+              ],
+              "keyDerivations": ["Symbolic interaction between saint and poet in Hazrat Nizamuddin Auliya and Amir Khusro"],
+              "numericalFocus": "Sultanate patronage timelines and European trade influence",
+              "diagrams": ["Color harmony and architectural backdrops in Deccani miniatures"],
+              "practicalLinkage": "Color mixing and tempera layering exercise"
+            }
+          ]
+        },
+        {
+          "unitNumber": "Unit 3",
+          "unitName": "The Bengal School of Painting and the Modern Trends in Indian Art",
+          "officialMarks": 10,
+          "chapters": [
+            {
+              "chapterNumber": 5,
+              "chapterName": "The Bengal School of Painting",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Nationalist revival of Indian art: E.B. Havell, Abanindranath Tagore, Sister Nivedita",
+                "Swadeshi movement in art, departure from Western academic realism towards Ajanta, Mughal and Japanese wash technique",
+                "Study of Prescribed Paintings: Journey's End (Abanindranath Tagore), Shiva and Sati (Nandalal Bose), Radhika (M.A.R. Chughtai), Meghdoot (Ram Gopal Vijaivargiya)"
+              ],
+              "keyDerivations": ["Emotional pathos and symbolism in Abanindranath Tagore's Journey's End (collapsing camel)"],
+              "numericalFocus": "Indian Society of Oriental Art milestones and Kala Bhavana Santiniketan establishment",
+              "diagrams": ["Japanese wash technique layering process diagram"],
+              "practicalLinkage": "Watercolor wash painting demonstration on handmade paper"
+            },
+            {
+              "chapterNumber": 6,
+              "chapterName": "Modern Trends in Indian Art (Paintings, Graphic Prints and Sculptures)",
+              "officialStatus": "Verified CBSE Core",
+              "priorityAnalytical": "High Priority (Analytical Guide)",
+              "coreTopics": [
+                "Introduction to contemporary and modern movements: Progressive Artists' Group (PAG), Cholamandal Artists' Village",
+                "Prescribed Modern Paintings: Rama Vanquishing the Pride of the Ocean (Raja Ravi Varma), Mother and Child (Jamini Roy), Haldi Grinders (Amrita Sher-Gil), Mother Teresa (M.F. Husain)",
+                "Prescribed Graphic Prints: Whirlpool (Krishna Reddy), Children (Somnath Hore), Devi (Jyoti Bhatt), Of Walls (Anupam Sud)",
+                "Prescribed Modern Sculptures: Triumph of Labour (D.P. Roy Chowdhury, bronze), Santhal Family (Ramkinkar Baij, cement and pebble), Cries Un-heard (Amar Nath Sehgal, bronze), Ganesha (P.V. Jankiram, oxidized copper)"
+              ],
+              "keyDerivations": ["Folk art revivalist elements in Jamini Roy's flat colors and bold sweeping brush lines"],
+              "numericalFocus": "Modern art movements chronology and medium classification",
+              "diagrams": ["Sculptural balance and dynamic tension in Triumph of Labour"],
+              "practicalLinkage": "Clay modeling and relief printmaking exercise"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

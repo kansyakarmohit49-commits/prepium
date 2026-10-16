@@ -1,0 +1,6 @@
+{
+  "name": "Prepium",
+  "description": "CBSE Class 12 (2026–27) Offline Study Planner & Syllabus for Physics, Chemistry, Mathematics, Biology, English Core, and Painting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
